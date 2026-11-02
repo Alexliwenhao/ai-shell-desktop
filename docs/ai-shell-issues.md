@@ -29,7 +29,7 @@
 | 20 | 首次启动的初始化向导要全部去掉（市场/手机连接/浏览器页删除） | 已修复 | 删除 Setup Wizard（窗口/契约/文案/状态/native-ui/vite 入口/测试）；启动直接进主界面，模式默认 AI Shell |
 | 21 | 内测声明改为 Host 自动确认（不再弹给用户） | 已修复 | `src/desktop-onboarding.ts`：Host 启动即写入 `ui-onboarding.welcomeNoticeVersion` |
 | 22 | 深色模式下终端内容看不见 | 已修复（待人工确认） | 终端改为跟随主题的独立调色板（深色=深底白字），由 `terminal-theme.ts` 提供 |
-| 23 | 项目独立：整体改名 AI Shell Desktop，剥离 dsh-desktop | 已修复 | 新仓库 `Alexliwenhao/shell-desktop`；包名 `shell-desktop(-beta)`、appId `com.shelldesktop.app(.beta)`、目录与全部内部标识 `shell-desktop-*` |
+| 23 | 项目独立：整体改名 AI Shell Desktop，剥离 dsh-desktop | 已修复 | 新仓库 `Alexliwenhao/ai-shell-desktop`；包名 `shell-desktop(-beta)`、appId `com.shelldesktop.app(.beta)`、目录与全部内部标识 `shell-desktop-*` |
 | 24 | 文件面板的删除按钮无二次确认，容易误操作 | 已修复 | `FilePanel` 行内移除删除按钮（不暴露文件删除入口） |
 | 25 | 主机删除按钮无二次确认，容易误操作 | 已修复 | `HostPanel` 补二次确认：首次点击变红 ✓（`data-confirm`），再次点击才删除；点击主机行取消 |
 | 26 | 需要一套功能截图 + 功能说明，作为产品视频素材 | 已完成 | `docs/screenshots/`（20 张，按使用顺序编号，CDP 自动采集）+ `docs/screenshots/README.md`（清单 / 讲解要点 / 分镜 / 待补拍）；采集器 `scripts/capture-feature-screenshots.cjs` |
@@ -154,7 +154,7 @@
 - 证据：`tests/client-terminal-theme.spec.ts` 5 例通过（两版一致）；typecheck/变体门禁通过；打包产物 client bundle 含 `documentTerminalTheme`。视觉确认需在有交互桌面的机器上进行（本会话无前台窗口，无法注入点击/键盘）。
 
 ### 23 项目独立改名（AI Shell Desktop）
-- 目标（用户）：整套独立为开源项目，剥离 dsh-desktop；新仓库 `https://github.com/Alexliwenhao/shell-desktop`；包名与 appId 全部替换；保留 `deepseek-harness` 技术归属。
+- 目标（用户）：整套独立为开源项目，剥离 dsh-desktop；新仓库 `https://github.com/Alexliwenhao/ai-shell-desktop`；包名与 appId 全部替换；保留 `deepseek-harness` 技术归属。
 - 范围：文本层 352 个文件 / 约 2200 处 + 仓库 slug 18 个文件 / 58 处（旧 slug 是 `deepseek-harness-desktop`，不是 `dsh-desktop`）；目录 `dsh-plugin-desktop/` → `shell-desktop/`、`dsh-plugin-desktop-beta/` → `shell-desktop-beta/`；`yarn install` 刷新 lockfile 与 patch。
 - 改名清单：包名/bin（`shell-desktop`、`shell-desktop-beta`）、appId（`com.shelldesktop.app` / `.beta`）、本地窗口 session partition（`shell-desktop-*` + `local-window-policy` 正则）、渲染器访问头（`x-shell-desktop-renderer`）、设置命名空间（`shell-desktop` / `shell-desktop-notifications`）、profile patch row 名、CI/脚本/文档/README/PRIVACY/issue 模板/upstream.json。
 - 有意保留：`DSH_DESKTOP_*`/`__DSH_DESKTOP_*` 环境变量与桥接全局、`X-DSH-Desktop-*` 请求头、`dsh-community-market` 包名、`dshdesktop.cn` 服务地址（属旧官方服务）、`deepseek-harness`/`DeepSeek Harness`/`@deepseek-ai/*`/`@agents-anywhere/*`。（`.agents/notes/**`、`docs/evidence/**`、`_deprecated/**`、`dsh-community-fabric` 与旧 `assets/` 已在 #31 裁剪中删除。）

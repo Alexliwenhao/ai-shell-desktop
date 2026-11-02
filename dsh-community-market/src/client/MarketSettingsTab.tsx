@@ -51,14 +51,14 @@ import {
 type MarketItem = CatalogSnapshot['items'][number]
 export type MarketView = 'discover' | 'installable' | 'installed' | 'sources'
 const INSTALL_REQUIREMENTS_DOCS = {
-  en: 'https://github.com/Alexliwenhao/shell-desktop/blob/master/dsh-community-market/docs/install-and-uninstall.md',
-  zh: 'https://github.com/Alexliwenhao/shell-desktop/blob/master/dsh-community-market/docs/install-and-uninstall.zh.md',
+  en: 'https://github.com/Alexliwenhao/ai-shell-desktop/blob/master/dsh-community-market/docs/install-and-uninstall.md',
+  zh: 'https://github.com/Alexliwenhao/ai-shell-desktop/blob/master/dsh-community-market/docs/install-and-uninstall.zh.md',
 } as const
 const CATALOG_ADAPTER_GUIDE_DOCS = {
-  en: 'https://github.com/Alexliwenhao/shell-desktop/blob/master/dsh-community-market/docs/catalog-adapter-guide.md',
-  zh: 'https://github.com/Alexliwenhao/shell-desktop/blob/master/dsh-community-market/docs/catalog-adapter-guide.zh.md',
+  en: 'https://github.com/Alexliwenhao/ai-shell-desktop/blob/master/dsh-community-market/docs/catalog-adapter-guide.md',
+  zh: 'https://github.com/Alexliwenhao/ai-shell-desktop/blob/master/dsh-community-market/docs/catalog-adapter-guide.zh.md',
 } as const
-const SHELL_DESKTOP_ISSUES_URL = 'https://github.com/Alexliwenhao/shell-desktop/issues'
+const SHELL_DESKTOP_ISSUES_URL = 'https://github.com/Alexliwenhao/ai-shell-desktop/issues'
 
 function installRequirementsUrl(locale: string): string {
   return locale.toLowerCase().startsWith('zh') ? INSTALL_REQUIREMENTS_DOCS.zh : INSTALL_REQUIREMENTS_DOCS.en

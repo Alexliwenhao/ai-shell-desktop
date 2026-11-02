@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Alexliwenhao/shell-desktop.git",
+    "url": "git+https://github.com/Alexliwenhao/ai-shell-desktop.git",
     "directory": "dsh-community-market"
   },
-  "homepage": "https://github.com/Alexliwenhao/shell-desktop/tree/master/dsh-community-market#readme",
+  "homepage": "https://github.com/Alexliwenhao/ai-shell-desktop/tree/master/dsh-community-market#readme",
   "bugs": {
-    "url": "https://github.com/Alexliwenhao/shell-desktop/issues"
+    "url": "https://github.com/Alexliwenhao/ai-shell-desktop/issues"
   },
   "type": "module",
   "main": "lib/index.js",

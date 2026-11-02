@@ -4,7 +4,7 @@ Thank you for wanting to contribute to AI Shell Desktop. This is a community pro
 
 ## Regular users: use, report, and spread the word
 
-- Report problems or odd behavior in an [issue](https://github.com/Alexliwenhao/shell-desktop/issues): include your operating system (macOS / Windows), application version, and reproduction steps.
+- Report problems or odd behavior in an [issue](https://github.com/Alexliwenhao/ai-shell-desktop/issues): include your operating system (macOS / Windows), application version, and reproduction steps.
 - Feature ideas and improvement suggestions are welcome as issues too.
 - Review pull requests and answer issues in this repository; tutorials and experience posts are welcome too.
 

@@ -2,7 +2,7 @@
 
 [中文](faq.md)
 
-This page answers common questions about installation, supported platforms, the bundled runtime, and plugins in the current stable release. The [latest GitHub Release](https://github.com/Alexliwenhao/shell-desktop/releases/latest) and [user guide](user-guide.en.md) define the shipped product scope.
+This page answers common questions about installation, supported platforms, the bundled runtime, and plugins in the current stable release. The [latest GitHub Release](https://github.com/Alexliwenhao/ai-shell-desktop/releases/latest) and [user guide](user-guide.en.md) define the shipped product scope.
 
 ## What is AI Shell Desktop?
 
@@ -42,8 +42,8 @@ No plugins are copied automatically. Each profile has its own bundle and depende
 
 ## How are updates installed?
 
-Releases are distributed through [GitHub Releases](https://github.com/Alexliwenhao/shell-desktop/releases/latest): download the newer installer or portable archive and use it in place; upgrades never install silently. Windows and macOS provide in-app entries to check for and download an installer; Linux currently supports only manual upgrades by downloading a new AppImage, deb, or tar.gz, and never updates itself in the background.
+Releases are distributed through [GitHub Releases](https://github.com/Alexliwenhao/ai-shell-desktop/releases/latest): download the newer installer or portable archive and use it in place; upgrades never install silently. Windows and macOS provide in-app entries to check for and download an installer; Linux currently supports only manual upgrades by downloading a new AppImage, deb, or tar.gz, and never updates itself in the background.
 
 ## Where can I download the app or report a problem?
 
-Download from the [latest GitHub Release](https://github.com/Alexliwenhao/shell-desktop/releases/latest). Check the [troubleshooting section](user-guide.en.md#troubleshooting) first. If the problem remains, open a [GitHub Issue](https://github.com/Alexliwenhao/shell-desktop/issues/new/choose) with the operating system, app version, reproduction steps, and error details.
+Download from the [latest GitHub Release](https://github.com/Alexliwenhao/ai-shell-desktop/releases/latest). Check the [troubleshooting section](user-guide.en.md#troubleshooting) first. If the problem remains, open a [GitHub Issue](https://github.com/Alexliwenhao/ai-shell-desktop/issues/new/choose) with the operating system, app version, reproduction steps, and error details.

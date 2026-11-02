@@ -5,11 +5,11 @@
   "description": "Shell Desktop: an independent open-source desktop client built on DeepSeek Harness",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Alexliwenhao/shell-desktop.git"
+    "url": "git+https://github.com/Alexliwenhao/ai-shell-desktop.git"
   },
-  "homepage": "https://github.com/Alexliwenhao/shell-desktop",
+  "homepage": "https://github.com/Alexliwenhao/ai-shell-desktop",
   "bugs": {
-    "url": "https://github.com/Alexliwenhao/shell-desktop/issues"
+    "url": "https://github.com/Alexliwenhao/ai-shell-desktop/issues"
   },
   "packageManager": "yarn@4.18.0",
   "engines": {

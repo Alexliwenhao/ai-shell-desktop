@@ -74,7 +74,7 @@
 
 ## 下载
 
-发布版通过 [GitHub Releases](https://github.com/Alexliwenhao/shell-desktop/releases/latest) 分发。下表列出各平台的构建产物；只有在 Release 资产中实际看到对应文件时，才表示该平台已经发布：
+发布版通过 [GitHub Releases](https://github.com/Alexliwenhao/ai-shell-desktop/releases/latest) 分发。下表列出各平台的构建产物；只有在 Release 资产中实际看到对应文件时，才表示该平台已经发布：
 
 | 平台 | 产物 | 说明 |
 | --- | --- | --- |

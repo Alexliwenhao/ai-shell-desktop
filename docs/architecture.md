@@ -65,7 +65,7 @@ Launcher 私有的 `desktopRuntime`、`desktopPnpmBootstrap`、Electron executab
 
 ## 发行通道
 
-稳定版与 Beta 是两个实体 npm 包和两个系统应用，不由 Git 分支区分。稳定版使用 `shell-desktop`、`AI Shell Desktop` 与 `com.shelldesktop.app`；Beta 使用 `shell-desktop-beta`、`AI Shell Desktop Beta` 与 `com.shelldesktop.app.beta`。`upstream.json` 同时记录两个通道的上游版本、提交和 vendored runtime 清单，根级精确 resolution 保证每个 workspace 只能解析自己的 DSH 运行时。发行包通过 [GitHub Releases](https://github.com/Alexliwenhao/shell-desktop/releases) 分发，应用内不提供自动更新入口。
+稳定版与 Beta 是两个实体 npm 包和两个系统应用，不由 Git 分支区分。稳定版使用 `shell-desktop`、`AI Shell Desktop` 与 `com.shelldesktop.app`；Beta 使用 `shell-desktop-beta`、`AI Shell Desktop Beta` 与 `com.shelldesktop.app.beta`。`upstream.json` 同时记录两个通道的上游版本、提交和 vendored runtime 清单，根级精确 resolution 保证每个 workspace 只能解析自己的 DSH 运行时。发行包通过 [GitHub Releases](https://github.com/Alexliwenhao/ai-shell-desktop/releases) 分发，应用内不提供自动更新入口。
 
 ## 维护者深入阅读
 

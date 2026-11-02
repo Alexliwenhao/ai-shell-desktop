@@ -276,7 +276,7 @@ const MARKET_OPTIONS: readonly {
   { id: 'dsh-market', title: 'dshMarket', body: 'dshMarketBody' },
 ]
 
-const COMMUNITY_MARKET_URL = 'https://github.com/Alexliwenhao/shell-desktop/tree/master/dsh-community-market'
+const COMMUNITY_MARKET_URL = 'https://github.com/Alexliwenhao/ai-shell-desktop/tree/master/dsh-community-market'
 const DSH_MARKET_URL = 'https://github.com/dsh-market/dsh-market'
 const AWESOME_DSH_PLUGIN_URL = 'https://github.com/awesome-dsh-plugin/awesome-dsh-plugin'
 

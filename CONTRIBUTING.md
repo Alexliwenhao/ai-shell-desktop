@@ -4,7 +4,7 @@
 
 ## 普通用户：使用、反馈与传播
 
-- 遇到问题或异常，[提 issue](https://github.com/Alexliwenhao/shell-desktop/issues)：说明操作系统（macOS / Windows）、应用版本和复现步骤。
+- 遇到问题或异常，[提 issue](https://github.com/Alexliwenhao/ai-shell-desktop/issues)：说明操作系统（macOS / Windows）、应用版本和复现步骤。
 - 有功能想法或改进建议，也欢迎提 issue 讨论。
 - 在本仓库提交 Issue、评审 Pull Request，帮助其他用户解决问题；也欢迎写使用教程或体验文章。
 

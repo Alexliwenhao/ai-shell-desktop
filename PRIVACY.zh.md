@@ -7,7 +7,7 @@
 
 Shell Desktop 是一个本地优先的开源桌面应用。本政策说明本项目的构建会发送哪些信息、为什么发送、谁会收到，以及您可以如何作出选择。
 
-本政策中的“我们”指本仓库（[Alexliwenhao/shell-desktop](https://github.com/Alexliwenhao/shell-desktop)）的维护者。项目是独立的社区开源项目，与 DeepSeek 不存在隶属、合作、授权或背书关系。本项目自身不运营任何在线服务；应用内的自动更新检查仍指向从旧版发行版继承的 `dshdesktop.cn` 端点，该端点由其运营方控制而非本项目，且可在源码中关闭或替换该地址。
+本政策中的“我们”指本仓库（[Alexliwenhao/ai-shell-desktop](https://github.com/Alexliwenhao/ai-shell-desktop)）的维护者。项目是独立的社区开源项目，与 DeepSeek 不存在隶属、合作、授权或背书关系。本项目自身不运营任何在线服务；应用内的自动更新检查仍指向从旧版发行版继承的 `dshdesktop.cn` 端点，该端点由其运营方控制而非本项目，且可在源码中关闭或替换该地址。
 
 隐私问题或权利请求请发送至 [wenhaoli392@gmail.com](mailto:wenhaoli392@gmail.com)。请不要在公开 GitHub Issue 中提交安装标识、日志、凭据或其他私密信息。
 
@@ -15,7 +15,7 @@ Shell Desktop 是一个本地优先的开源桌面应用。本政策说明本项
 
 本政策适用于：
 
-- 通过 [GitHub 仓库](https://github.com/Alexliwenhao/shell-desktop)及其 Releases 页面提供的 Shell Desktop；
+- 通过 [GitHub 仓库](https://github.com/Alexliwenhao/ai-shell-desktop)及其 Releases 页面提供的 Shell Desktop；
 - `https://www.dshdesktop.cn/` 下由旧版发行版运营的版本检查与下载跳转端点（非本项目服务）；
 - 您主动发送给项目维护团队的隐私请求、支持邮件或问题报告。
 

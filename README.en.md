@@ -74,7 +74,7 @@ All 24 screenshots, per-shot narration, and a storyboard live in [`docs/screensh
 
 ## Download
 
-Releases are distributed through [GitHub Releases](https://github.com/Alexliwenhao/shell-desktop/releases/latest). The table lists each platform's build artifacts; a platform is published only when the matching files appear in the release assets:
+Releases are distributed through [GitHub Releases](https://github.com/Alexliwenhao/ai-shell-desktop/releases/latest). The table lists each platform's build artifacts; a platform is published only when the matching files appear in the release assets:
 
 | Platform | Artifact | Notes |
 | --- | --- | --- |

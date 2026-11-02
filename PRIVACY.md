@@ -7,7 +7,7 @@
 
 AI Shell Desktop is a local-first, open-source desktop application. This policy explains what information this project’s builds send, why they process it, who receives it, and what choices you have.
 
-In this policy, “we” means the maintainer of this repository ([Alexliwenhao/shell-desktop](https://github.com/Alexliwenhao/shell-desktop)). AI Shell Desktop is an independent community project and has no affiliation, partnership, authorization, or endorsement relationship with DeepSeek. This project operates no online service of its own. The application's automatic update check still points at the legacy `dshdesktop.cn` endpoints inherited from the previous distribution; those endpoints are controlled by their operator, not by this project, and the address can be disabled or replaced from source.
+In this policy, “we” means the maintainer of this repository ([Alexliwenhao/ai-shell-desktop](https://github.com/Alexliwenhao/ai-shell-desktop)). AI Shell Desktop is an independent community project and has no affiliation, partnership, authorization, or endorsement relationship with DeepSeek. This project operates no online service of its own. The application's automatic update check still points at the legacy `dshdesktop.cn` endpoints inherited from the previous distribution; those endpoints are controlled by their operator, not by this project, and the address can be disabled or replaced from source.
 
 For privacy questions or rights requests, email [wenhaoli392@gmail.com](mailto:wenhaoli392@gmail.com). Do not put installation identifiers, logs, credentials, or other private information in a public GitHub Issue.
 
@@ -15,7 +15,7 @@ For privacy questions or rights requests, email [wenhaoli392@gmail.com](mailto:w
 
 This policy applies to:
 
-- AI Shell Desktop provided through the [GitHub repository](https://github.com/Alexliwenhao/shell-desktop) and its release pages;
+- AI Shell Desktop provided through the [GitHub repository](https://github.com/Alexliwenhao/ai-shell-desktop) and its release pages;
 - the legacy version-check and download endpoints under `https://www.dshdesktop.cn/` (operated by the previous distribution, not by this project); and
 - privacy requests, support email, or issue reports that you voluntarily send to the project maintainers.
 

@@ -55,10 +55,10 @@ const renamedAssetRef = 'mktimg_DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD'
 const fixtureAssetRef = 'mktimg_EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE'
 
 const rawPlugin = {
-  id: 'Alexliwenhao/shell-desktop/dsh-plugin-desktop',
+  id: 'Alexliwenhao/ai-shell-desktop/dsh-plugin-desktop',
   name: 'shell-desktop',
   owner: 'anywhere-labs',
-  url: 'https://github.com/Alexliwenhao/shell-desktop',
+  url: 'https://github.com/Alexliwenhao/ai-shell-desktop',
   category: 'dev',
   description: { en: 'Desktop shell', zh: '桌面外壳' },
   pushedAt: '2026-08-17T05:45:19Z',
@@ -210,7 +210,7 @@ describe('1024Store adapter', () => {
       id: rawPlugin.id,
       summary: 'Desktop shell',
       repository: {
-        url: 'https://github.com/Alexliwenhao/shell-desktop',
+        url: 'https://github.com/Alexliwenhao/ai-shell-desktop',
         subdirectory: 'dsh-plugin-desktop',
       },
       package: { registry: 'npm', name: 'shell-desktop' },

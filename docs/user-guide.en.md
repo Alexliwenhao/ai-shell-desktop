@@ -2,7 +2,7 @@
 
 ## Installation and first launch
 
-Download the artifact for your platform from [GitHub Releases](https://github.com/Alexliwenhao/shell-desktop/releases/latest): the Windows x64 installer (`AI-Shell-Desktop-<version>-x64-Setup.exe`) or portable archive (`AI-Shell-Desktop-<version>-x64-Portable.zip`), the macOS universal DMG (`AI-Shell-Desktop-<version>-universal.dmg`), and Linux x64 / ARM64 AppImage, deb, and tar.gz artifacts. AI Shell Desktop includes Electron, Node, and its pinned DSH dependencies, so normal users do not need to install Node.js or pnpm separately. Builds are currently unsigned, so Windows may warn about an unknown publisher on first run and unsigned macOS artifacts need to be allowed in **Privacy & Security**. Linux AppImages require a system that can mount FUSE (`libfuse2`); the tar.gz archive runs `ai-shell-desktop` after extraction.
+Download the artifact for your platform from [GitHub Releases](https://github.com/Alexliwenhao/ai-shell-desktop/releases/latest): the Windows x64 installer (`AI-Shell-Desktop-<version>-x64-Setup.exe`) or portable archive (`AI-Shell-Desktop-<version>-x64-Portable.zip`), the macOS universal DMG (`AI-Shell-Desktop-<version>-universal.dmg`), and Linux x64 / ARM64 AppImage, deb, and tar.gz artifacts. AI Shell Desktop includes Electron, Node, and its pinned DSH dependencies, so normal users do not need to install Node.js or pnpm separately. Builds are currently unsigned, so Windows may warn about an unknown publisher on first run and unsigned macOS artifacts need to be allowed in **Privacy & Security**. Linux AppImages require a system that can mount FUSE (`libfuse2`); the tar.gz archive runs `ai-shell-desktop` after extraction.
 
 On first launch, the application prepares the default profile and starts the DSH Host and the AI Shell interface locally. Closing the window normally hides it; use **Quit** from the tray when you want to stop the application and Host process.
 
@@ -49,7 +49,7 @@ An explicit `--profile <name>` always wins. Restart AI Shell Desktop after plugi
 
 ## Updates
 
-Releases are distributed through [GitHub Releases](https://github.com/Alexliwenhao/shell-desktop/releases/latest): download the newer installer or portable archive and use it in place. Windows and macOS can check for updates and download an installer in the app; on Linux, download a new AppImage, deb, or tar.gz manually, because the app never updates itself.
+Releases are distributed through [GitHub Releases](https://github.com/Alexliwenhao/ai-shell-desktop/releases/latest): download the newer installer or portable archive and use it in place. Windows and macOS can check for updates and download an installer in the app; on Linux, download a new AppImage, deb, or tar.gz manually, because the app never updates itself.
 
 ## Troubleshooting
 
@@ -66,6 +66,6 @@ Desktop confirmations, warnings, and operation results open as separate shadcn-b
 - **Diagnostic archive contents**: recent application logs, local Crashpad `.dmp` files, the active-run marker, and `system-info.txt`. System information records Desktop, Electron, Node, platform, and architecture versions. Recognized credentials are masked in logs, but local paths, workspace IDs, session IDs, and crash-time memory fragments may remain. Review the archive before public upload and send sensitive dumps only through a trusted channel.
 - **The window disappeared**: check the system tray; closing the window is not quitting.
 - **A plugin is missing**: confirm the command targeted the intended profile and restart the application.
-- **No update prompt appeared**: the app does not raise update prompts; see [GitHub Releases](https://github.com/Alexliwenhao/shell-desktop/releases/latest).
+- **No update prompt appeared**: the app does not raise update prompts; see [GitHub Releases](https://github.com/Alexliwenhao/ai-shell-desktop/releases/latest).
 
 The lower-level lifecycle, packaging, and platform limits belong to the developer documentation; see the [documentation index](README.md).

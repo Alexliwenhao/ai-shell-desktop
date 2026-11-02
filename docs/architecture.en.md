@@ -65,7 +65,7 @@ Release targets include Windows NSIS / portable zip, macOS universal DMG, and Li
 
 ## Release channels
 
-Stable and Beta are separate physical npm packages and system applications; Git branches do not define the channels. Stable uses `shell-desktop`, `AI Shell Desktop`, and `com.shelldesktop.app`; Beta uses `shell-desktop-beta`, `AI Shell Desktop Beta`, and `com.shelldesktop.app.beta`. `upstream.json` records both channels' upstream versions, commits, and vendored-runtime manifests. Exact root resolutions ensure that each workspace resolves only its own DSH runtime. Releases are distributed through [GitHub Releases](https://github.com/Alexliwenhao/shell-desktop/releases); the app provides no automatic-update entry point.
+Stable and Beta are separate physical npm packages and system applications; Git branches do not define the channels. Stable uses `shell-desktop`, `AI Shell Desktop`, and `com.shelldesktop.app`; Beta uses `shell-desktop-beta`, `AI Shell Desktop Beta`, and `com.shelldesktop.app.beta`. `upstream.json` records both channels' upstream versions, commits, and vendored-runtime manifests. Exact root resolutions ensure that each workspace resolves only its own DSH runtime. Releases are distributed through [GitHub Releases](https://github.com/Alexliwenhao/ai-shell-desktop/releases); the app provides no automatic-update entry point.
 
 ## Maintainer reading
 
